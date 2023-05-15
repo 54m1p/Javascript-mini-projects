@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <P>Enter user details.</P>
+            <label for="name">Enter name.</label>
+            <input type="text" name="name" id="usrName">
+            <label for="inpDate">Enter date of birth</label>
+            <input type="date" name="inpDate" id="usrDOB">
+            <button onclick="addDetails()">Add details</button>
+        </div>
+        <div>
+            <p>Enter date to check for birthdays</p>
+            <input type="date" name="inpDate" id="inpDate">
+            <button onclick="bdayCheck()">Check for birthdays</button>   
+            <div class="result"></div>
+        </div>
+    </div>
+ <script src="bdayRem.js"></script>   
+</body>
+</html>
