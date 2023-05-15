@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <label for="inputTime">Set the timer</label>
+   <input type="text" name="hh" id="hh" placeholder="hh" size="1" maxlength="2" value="00">:
+   <input type="text" name="mm" id="mm" placeholder="mm" size="1" maxlength="2" value="00">:
+   <input type="text" name="ss" id="ss" placeholder="ss" size="1" maxlength="2" value="00">
+   <button id="timerBtn" onclick="timerFn()">Start</button>
+   <!-- <button id "resetBtn" style="display: hide;"></button> -->
+   <label for="hh" id="hr"></label>
+   <label for="mm" id="min"></label>
+   <label for="ss" id="sec"></label>
+   <script src ="timer.js"></script>
+</body>
+</html>

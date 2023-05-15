@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currenct Convert</title>
+</head>
+<body>
+    <div class="currencyConv">
+        <h1>Currency conversion to NRS</h1>
+        <label for="currOption">Select the currency to convert:</label>
+        <select name="currOption" id="currOption">
+            <option value="usd">US Dollar</option>
+            <option value="inr">Indian Rupees</option>
+            <option value="eur">European Euro</option>
+            <option value="cad">Canadian Dollar</option>
+        </select><br> 
+        <label for="numInput">Enter the to convert in NRS</label>
+        <input type="number" name="amtInput" id="amtInput">
+        <button onclick="currencyConv()">Convert</button>
+        <p id="result"></p>
+        </div>
+    <script src = "currencyConv.js"></script>
+</body>
+</html>
