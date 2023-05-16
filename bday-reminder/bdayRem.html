@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+                <P>Enter user details.</P>
+                <label for="name">Enter name.</label>
+                <input type="text" name="name" id="usrName" required>
+                <label for="usrDOB">Enter date of birth</label>
+                <input type="date" name="usrDOB" id="usrDOB" required>
+                <button onclick="addDetails()">Add detail</button>
+        </div>
+        <div>
+            <p>Enter date to check for birthdays</p>
+            <input type="date" name="inpDate" id="inpDate">
+            <button onclick="bdayCheck()">Check for birthday</button>   
+        </div>
+    </div>
+    <div class="result-div" id="main">
+        <div id="result-head"></div>
+        <div class="result-text" id="result-text"></div>
+    </div>
+    <div id = "no-result" class="result-div"></div>
+ <script src="bdayCheck.js"></script>   
+</body>
+</html>
