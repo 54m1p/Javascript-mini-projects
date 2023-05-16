@@ -10,12 +10,12 @@
 <body>
     <div class="container">
         <div>
-            <P>Enter user details.</P>
-            <label for="name">Enter name.</label>
-            <input type="text" name="name" id="usrName">
-            <label for="inpDate">Enter date of birth</label>
-            <input type="date" name="inpDate" id="usrDOB">
-            <button onclick="addDetails()">Add details</button>
+                <P>Enter user details.</P>
+                <label for="name">Enter name.</label>
+                <input type="text" name="name" id="usrName" required>
+                <label for="usrDOB">Enter date of birth</label>
+                <input type="date" name="usrDOB" id="usrDOB" required>
+                <button onclick="addDetails()">Add details</button>
         </div>
         <div>
             <p>Enter date to check for birthdays</p>
@@ -24,6 +24,6 @@
             <div class="result"></div>
         </div>
     </div>
- <script src="bdayRem.js"></script>   
+ <script src="bdayCheck.js"></script>   
 </body>
 </html>
