@@ -1,0 +1,29 @@
+.gamebox
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+}
+.boxelement
+{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+}
+.inpBox{
+    padding-top: 75%;
+    border-radius: 5px;
+    /* height: 142px; */
+}
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}

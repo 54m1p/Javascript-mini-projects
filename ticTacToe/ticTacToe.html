@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticTacStvyle.css">
+</head>
+<body>
+    <div>
+            <p>Tic Tac Toe</p>
+            <div class="players">
+                <label for="player1">Enter player 1 name: </label>
+                <input type="text" name="player1" id="player1">
+                <label for="player2">Enter player 2 name: </label>
+                <input type="text" name="player2" id="player2">
+            
+        <div class="gamebox">
+            <div class="container">
+                <div class=" first row">
+                    <span class="first col boxElement"><input type="text" name="box1" id="box1" class ="inpBox" onclick="fnBoxclick1()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box2" id="box2" class ="inpBox" onclick="fnBoxclick2()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box3" id="box3" class ="inpBox" onclick="fnBoxclick3()" readonly></span>
+                </div><br>
+                <div class=" second row">
+                    <span class="first col boxElement"><input type="text" name="box4" id="box4" class ="inpBox" onclick="fnBoxclick4()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box5" id="box5" class ="inpBox" onclick="fnBoxclick5()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box6" id="box6" class ="inpBox" onclick="fnBoxclick6()" readonly></span>
+                </div><br>
+                <div class=" third row">
+                    <span class="first col boxElement"><input type="text" name="box7" id="box7" class ="inpBox" onclick="fnBoxclick7()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box8" id="box8" class ="inpBox" onclick="fnBoxclick8()" readonly></span>
+                    <span class="second col boxElement"><input type="text" name="box9" id="box9" class ="inpBox" onclick="fnBoxclick9()" readonly></span>
+                </div><br>
+            </div>      
+            <div id = "showResult"></div>
+            <div id = "replay"></div>
+            <div> 
+                <button onclick="resetGame()" id="resetBtn" style="display: none">Play again</button>
+            </div>          
+        </div>
+    </div>
+    <script src="ticTacToe.js"> </script>
+</body>
+</html>
