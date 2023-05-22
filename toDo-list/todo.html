@@ -9,10 +9,12 @@
 </head>
 <body>
     <div class="section">
-        <!-- <h1>To Do list</h1> -->
+        <h1>To Do list</h1>
         <div class="list-container">
-            <input type="text" id="addTasks">
-            <button onclick="addTask()">Add task</button>
+            <div class="addNew">
+                <input type="text" id="addTasks" placeholder="Add new task..">
+                <button class="add-button" onclick="addTask()">Add task</button>
+            </div>
             <div id="list-box">
                 <ul id = "myUl"></ul>
             </div>

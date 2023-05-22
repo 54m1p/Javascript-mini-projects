@@ -1,6 +1,60 @@
+
+.section {
+    max-width: 40%;
+    margin: auto;
+}
+ul#myUl {
+    max-width: 69%;
+}
 li {
     list-style: none;
+    padding: 5px;
+    font-size: 1.25em;
+}
+li:nth-child(odd) { background: black; color: aquamarine; }
+li:nth-child(even){background-color: beige;}
+.addNew {
+    text-align: center;
+    padding: 14px;
 }
 .close{
-    padding-left: 10%;
+    float: right;
+}
+h1 {
+    text-align: center;
+    padding: 35px;
+}
+
+
+
+.add-button {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add-button:hover,
+.add-button:focus {
+  opacity: .75;
 }
