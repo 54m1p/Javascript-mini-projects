@@ -1,18 +1,29 @@
-
+:root{
+    background-color: #222;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .section {
     max-width: 40%;
     margin: auto;
+}
+input#addTasks {
+    width: 60%;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 2px;
 }
 ul#myUl {
     max-width: 69%;
 }
 li {
     list-style: none;
-    padding: 5px;
-    font-size: 1.25em;
+    padding: 3px 10px;
+    border-radius: 16px;
+    margin: 10px;
 }
 li:nth-child(odd) { background: black; color: aquamarine; }
-li:nth-child(even){background-color: beige;}
+li:nth-child(even){background-color: beige; color: black;}
 .addNew {
     text-align: center;
     padding: 14px;
@@ -24,11 +35,17 @@ h1 {
     text-align: center;
     padding: 35px;
 }
+.addNew {
+    text-align: center;
+    padding: 18px;
+    display: flex;
+    /* justify-content: start; */
+}
 
 
 
 .add-button {
-  background-color: #222;
+  background-color:darkslategrey;
   border-radius: 4px;
   border-style: none;
   box-sizing: border-box;
@@ -36,12 +53,12 @@ h1 {
   cursor: pointer;
   display: inline-block;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
+  line-height: 0.5;
+  margin: 2px;
   max-width: none;
-  min-height: 44px;
+  min-height: 20px;
   min-width: 10px;
   outline: none;
   overflow: hidden;

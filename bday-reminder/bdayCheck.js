@@ -13,7 +13,8 @@ function addDetails(){
         dob: usrDOB
     })
     localStorage.setItem("list",JSON.stringify(arrNew));
-    console.log(arrNew,'arrnew');
+    console.log(list,'list');
+
 }
 function bdayCheck(){
     let inpDate = new Date(document.getElementById("inpDate").value);
